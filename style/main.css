@@ -13,7 +13,7 @@
 body{
    background: var(--preta);
    font-family: 'Arial', Times, serif;
-   color:white;
+   color:rgb(255, 255, 255);
 }
 
 
@@ -41,4 +41,35 @@ header nav a{
 
 header nav a:hover{
     color:#fff;
+}
+
+
+/*dados relacionados ao card principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%), url('/img/DISTURBED.jpg');
+    height: 400px;
+    background-size: cover;
+    
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+}
+
+.filme-principal .titulo{
+
+    color: #D9CECA;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.filme-principal .sub-titulo{
+
+    padding: 10px;
+    margin-bottom: 90px;
+
 }
