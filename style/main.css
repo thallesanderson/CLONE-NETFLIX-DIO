@@ -1,6 +1,7 @@
 :root{
     --vermelho:#E50914;
     --preta:#141414;
+    --cinza:#d3d3d3;
 }
 
 *{
@@ -27,9 +28,9 @@ header .container{
 
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size:36px;
+    color: var(--cinza);
+    font-family: "/font/Disturbed.otf";
+    font-size:30px;
 }
 
 header nav a{
