@@ -62,8 +62,11 @@ header nav a:hover{
 
 .filme-principal .titulo{
 
+    margin-top: 5%;
     color: #D9CECA;
-    font-size: 40px;
+    color: var(--cinza);
+    font-family: "/font/Disturbed.otf";
+    font-size:30px;
     margin-bottom: 30px;
     padding: 10px;
 }
@@ -71,6 +74,31 @@ header nav a:hover{
 .filme-principal .sub-titulo{
 
     padding: 10px;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
+
+}
+
+.botao{
+
+   background-color: rgba(0,0,0, .50);
+   border: none; 
+   color: white;
+
+   padding: 15px 30px;
+   font-size: 12px;
+   
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+
+    background-color: rgb(117, 114, 114);
+    color: #ffffff;
+
+}
+
+.botao i{
+margin-right: 5px;
 
 }
