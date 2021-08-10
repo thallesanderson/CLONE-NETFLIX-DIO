@@ -80,6 +80,7 @@ header nav a:hover{
 
 .botao{
 
+    margin-left: 10px;
    background-color: rgba(0,0,0, .50);
    border: none; 
    color: white;
@@ -102,3 +103,12 @@ header nav a:hover{
 margin-right: 5px;
 
 }
+
+
+.disc{
+
+    height: 50%;
+    width: 50%;
+    display: block;
+    
+    }
